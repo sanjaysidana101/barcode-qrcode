@@ -44,7 +44,6 @@ class UsersController extends AppController {
      *
      * @var array
      */
-    //public $uses = array('User', 'UserDetail', 'Systememail', 'Team', 'Contest', 'TeamMember','UserSocialProfile','UsersConnection','Score');
     public $uses = array();
     var $helper = array('QrCode');
     var $components = array();
